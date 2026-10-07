@@ -1,39 +1,187 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>F3LLEN CLIENT</title>
+    <title>Centroscape | About Me</title>
 
-    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            min-height: 100vh;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #0d1117;
+            color: #e6edf3;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            padding: 30px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px;
+
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 16px;
+
+            padding: 40px;
+        }
+
+        h1 {
+            font-size: 42px;
+            margin-bottom: 8px;
+        }
+
+        .username {
+            color: #58a6ff;
+        }
+
+        .subtitle {
+            color: #8b949e;
+            font-size: 18px;
+            margin-bottom: 35px;
+        }
+
+        h2 {
+            color: #58a6ff;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            line-height: 1.7;
+            color: #c9d1d9;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .card {
+            background: #0d1117;
+            border: 1px solid #30363d;
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        .card h3 {
+            margin-bottom: 8px;
+        }
+
+        .card p {
+            color: #8b949e;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background: #21262d;
+            border: 1px solid #30363d;
+            border-radius: 20px;
+            padding: 8px 15px;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #30363d;
+
+            color: #8b949e;
+            text-align: center;
+            font-size: 14px;
+        }
+    </style>
 </head>
+
 <body>
-    
 
-    <nav class="navbar">
+    <main class="container">
 
-    </nav>
+        <h1>
+            Hi, I'm <span class="username">Centroscape</span> 👋
+        </h1>
 
-    <section class="hero">
+        <p class="subtitle">
+            Roblox Developer • Web Developer
+        </p>
 
-        <div class="overlay"></div>
+        <h2>About Me</h2>
 
-        <div class="content">
+        <p>
+        I'm Centroscape, a young person who sometimes codes for fun. I mainly Code in Luau and html.
+        </p>
 
-            <h1 class="fade-down">Error 404: Attempted to access a page used to make github pages under its name</h1>
+        <h2>What I Use</h2>
 
-            
-           <div class="buttons fade-down">
+        <div class="skills">
+            <span class="skill">🌙 Luau</span>
+            <span class="skill">🎮 Roblox Studio</span>
+            <span class="skill">🌐 HTML</span>
+        </div>
 
-            
+        <h2>Favorites</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>🥩 Favorite Food</h3>
+                <p>Steak</p>
+            </div>
+
+            <div class="card">
+                <h3>🥤 Favorite Drink</h3>
+                <p>Frappe</p>
+            </div>
+
+            <div class="card">
+                <h3>💻 Favorite Activity</h3>
+                <p>Programming</p>
+            </div>
 
         </div>
 
-    </section>
+        <h2>What I Do</h2>
 
-    <script src="script.js"></script>
+        <p>
+            I usually just spend my time either playing games or coding or chat with friends.
+        </p>
 
-</body>
+<h2>Streamer website</h2>
+
+        <p>
+            If you accidentally find yourself here while visiting the hanah website. feel free to click here:
+        </p>
+
+    
+        <p>
+        <a href="https://f3llencentro.github.io/hanahx.github.io">Click me!</a>
+        </p>
+
+    
+        
+
+        <footer>
+            Made by Centroscape • Thanks for visiting!
+        </footer>
+
+    </main>
 
 </body>
 </html>
